@@ -25,5 +25,5 @@ app.use('/api/material-requests', require('./routes/materialRequestRoutes'));
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`🚀 Server berjalan di http://localhost:${PORT}`);
+  console.log(` Server berjalan di http://localhost:${PORT}`);
 });
